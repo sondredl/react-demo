@@ -1,5 +1,4 @@
 import React, {useState, useEffect } from 'react';
-import companies from './companies.json';
 
 const YourComponent = () => {
     const [companies, setCompanies] = useState([]);
