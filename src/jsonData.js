@@ -11,16 +11,16 @@ const YourComponent = () => {
         .catch((error) => console.error('Error fetching JSON data:', error));
     }, []);
     return (
-        <diiv>
+        <div>
             <h1>
-                JsonData
+                Companies
             </h1>
             <ul>
                 {companies.map((company, index) => (
                     <li key={index}>{company} </li>
                 ))}
             </ul>
-        </diiv>
+        </div>
     );
 };
 
